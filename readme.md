@@ -20,11 +20,12 @@ This demo has a lot of functional features, including:
 
 Yes! All the files are correctly linked to each other in a way that should cause no issues with any download. 
 
-The CSS and JS files are all linked to index.html in the head section, and the JS files work off of each other while placing content into "index.html". The file "questions.js" is indexed multiple times in the file "quizApp.js", and "quizApp.js" dynamically places content into "index.html" by way of <div>, <span>, and <p> tags.
+The CSS and JS files are all linked to index.html in the head section, and the JS files work off of each other while placing content into "index.html". The file "questions.js" is indexed multiple times in the file "quizApp.js", and "quizApp.js" dynamically places content into "index.html" by way of div, span, and p tags.
 
 ## What do the different files do?
 
 Going in a logical order, we'll start with questions.js:
+
 questions.js creates an array of objects called "questions", which has all the info in it relating to the content displayed, such as the question number, the answer options, the correct answer, and the question itself.
 
 quizApp.js:
